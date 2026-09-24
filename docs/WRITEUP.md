@@ -36,19 +36,19 @@ A small **endpoint-management mini-tenant** on top of my Proxmox lab:
 ## Architecture
 
 ```
-┌──────────────────────────────────────────────┐
+┌─────────────────────────────────────────────┐
 │ Proxmox lab                                 │
 │  • DC01 — Windows Server (lab AD / GPO)     │
 │  • WIN11-ENDPOINT — Intune-managed client   │
 │  • WireGuard path for remote lab access     │
-└──────────────────┬───────────────────────────┘
+└──────────────────┬──────────────────────────┘
                    │ HTTPS management
                    ▼
-┌──────────────────────────────────────────────┐
+┌─────────────────────────────────────────────┐
 │ Microsoft 365 Developer tenant              │
 │  • Entra ID — users, groups, device objects │
 │  • Intune — compliance, apps, sync          │
-└──────────────────────────────────────────────┘
+└─────────────────────────────────────────────┘
 ```
 
 **Design choice:** Ship **Entra + Intune first** (Path A) so the portfolio has cloud endpoint proof quickly. AD coexistence (Path B) is documented as an extension, not a blocker — same way many shops run cloud-managed devices beside classic domain clients.
