@@ -4,7 +4,7 @@
 **Owner:** Shadman Bari  
 **Engineering lead:** Sin (senior)  
 **Target roles:** Desktop Support / IT Support / Junior Systems Engineer (Queens–JFK + remote)  
-**Status:** Phase 0 in progress — Dev Program sandbox BLOCKED; pivoted to M365 Business Premium 30-day trial (cancel before paid)  
+**Status:** PARKED (2026-09-24) — Dev sandbox blocked; trial pivot deferred so Sin can ship solo resume projects. Resume when Shadman has bandwidth for portal/VM clicks.  
 **Public repo:** [SudoShad/ad-intune-mini-tenant](https://github.com/SudoShad/ad-intune-mini-tenant)  
 **Feeds from:** existing [linux-homelab](https://github.com/SudoShad/linux-homelab) (Proxmox + AD DC already documented)  
 **Estimated time:** 4–6 focused evenings (faster because AD/Proxmox already exist)
