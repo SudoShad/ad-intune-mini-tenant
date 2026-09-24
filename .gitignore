@@ -1,0 +1,14 @@
+# Local secrets / exports — never commit
+*.pfx
+*.pem
+*.key
+.env
+*.csv
+!docs/**/*.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Unredacted screenshot dumps
+docs/screenshots/_raw/
