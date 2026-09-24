@@ -1,7 +1,7 @@
 # AD + Intune Mini-Tenant Lab
 
 **Author:** Shadman Bari · [shadman.io](https://shadman.io) · [LinkedIn](https://linkedin.com/in/shadman-bari)  
-**Status:** In progress (Phase 0) — Dev Program sandbox blocked; using M365 Business Premium 30-day trial for Intune. Screenshots after enroll.  
+**Status:** PARKED (2026-09-24) — pending user bandwidth for trial tenant + WIN11 enroll. Docs remain valid.  
 **Companion:** [linux-homelab](https://github.com/SudoShad/linux-homelab) (Proxmox, AD/GPO, WireGuard, osTicket, Wazuh)
 
 Personal practice lab that adds **Microsoft Entra ID + Intune** endpoint management on top of an existing Proxmox + Active Directory homelab. Built for Desktop Support / IT Support / Junior Systems Engineer interviews (Queens–NYC + remote).
